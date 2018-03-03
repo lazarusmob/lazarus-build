@@ -8,9 +8,10 @@
   <remote fetch="https://github.com" name="github"/>
   <remote fetch="http://git.linaro.org" name="linaro"/>
   <remote fetch="http://git.shr-project.org" name="shr"/>
-
+  
   <project remote="linaro" name="openembedded/meta-linaro" path="layers/meta-linaro"/>
 
+  <project remote="oe"     name="meta-handheld" path="layers/meta-handheld"/>
   <project remote="oe"     name="meta-opie" path="layers/meta-opie"/>
 
   <project remote="github" name="schnitzeltony/meta-gumstix-community" path="layers/meta-gumstix-community"/>
