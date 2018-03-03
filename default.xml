@@ -38,6 +38,7 @@
   <project remote="github" name="ndechesne/meta-qcom" path="layers/meta-qcom"/>
   <project remote="github" name="agherzan/meta-chip" path="layers/meta-chip"/>
   <project remote="github" name="agherzan/meta-raspberrypi" path="layers/meta-raspberrypi"/>
+  <project remote="github" name="lazarusmob/meta-ghackndev" path="layers/meta-ghackndev"/>
   <project remote="github" name="Angstrom-distribution/meta-angstrom" path="layers/meta-angstrom">
       <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
