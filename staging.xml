@@ -14,7 +14,7 @@
   <project remote="linaro" name="people/nicolas.dechesne/meta-qcom" path="layers/meta-qcom"/>
   
   <project remote="oe"     name="meta-handheld" path="layers/meta-handheld"/>
-  <project remote="oe"     name="meta-opie" path="layers/meta-opie"/>
+  <project remote="github" name="lazarusmob/meta-gopie" path="lazarusmob/meta-gopie"/>
 
   <project remote="bitbucket" name="gen_dev_sst/meta-kde4" path="layers/meta-kde4"/>
 
