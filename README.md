@@ -1,4 +1,5 @@
-angstrom-manifest
+lazarus-build
+based on angstrom-manifest
 =================
 
 Ångström Repo manifest repository
@@ -22,11 +23,11 @@ you might have to re-run this command everytime repo tool is updated in ~/bin/re
 
 Run repo init to bring down the latest version of Repo with all its most recent bug fixes. You must specify a URL for the manifest, which specifies where the various repositories included in the Android source will be placed within your working directory.
 
-	$ repo init -u git://github.com/Angstrom-distribution/angstrom-manifest
+	$ repo init -u git://github.com/lazarusmob/lazarus-build
 
 To check out a branch other than "master", specify it with -b:
 
-	$ repo init -u git://github.com/lazarusmob/angstrom-manifest -b angstrom-v2015.06-yocto1.8
+	$ repo init -u git://github.com/lazarusmob/lazarus-build -b angstrom-v2015.06-yocto1.8
 
 When prompted, configure Repo with your real name and email address.
 
@@ -90,3 +91,8 @@ http://lists.linuxtogo.org/cgi-bin/mailman/listinfo/angstrom-distro-devel
 
 * Koen Kooi <mailto:koen@dominion.thruhere.net>
 * Khem Raj  <mailto:raj.khem@gmail.com>
+
+Lazarus Mobile maintainer
+---------------------------------
+
+* Connor O'Brien <mailto:connor607@gmail.com>
